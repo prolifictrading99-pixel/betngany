@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{font-family:'Cairo',system-ui,sans-serif}
+body{direction:rtl;background:#fafafa}
+.scrollbar-hide::-webkit-scrollbar{display:none}
+*::-webkit-scrollbar{display:none}
