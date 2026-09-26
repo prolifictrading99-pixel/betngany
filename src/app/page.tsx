@@ -1,4 +1,3 @@
-"use client";
 import React, { useState, useMemo, useEffect } from "react";
 
 // FINAL STABLE - WITH REPORT & BLOCK SYSTEM
@@ -637,7 +636,6 @@ export default function App() {
   if (!isLoggedIn) {
     return (
       <div dir="rtl" className="min-h-screen bg-gray-50 flex items-center justify-center p-4 relative">
-        <style>{`@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap'); *{font-family:'Tajawal',sans-serif}`}</style>
         <div className="w-full max-w-[440px] bg-white rounded-[28px] shadow-xl p-7 border border-gray-200 z-10">
           <div className="flex items-center gap-2 mb-6">
             <div className="w-10 h-10 rounded-xl bg-black text-white flex items-center justify-center font-extrabold">C</div>
@@ -819,7 +817,6 @@ export default function App() {
   // LOGGED IN LAYOUT
   return (
     <div dir="rtl" className="min-h-screen bg-[#fafafa] text-zinc-900">
-      <style>{`@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap'); *{font-family:'Tajawal',sans-serif}`}</style>
 
       {/* Header with Logo always visible */}
       <div className="sticky top-0 z-40 bg-white border-b border-gray-200 h-[60px] flex items-center justify-between px-4 lg:px-6">
